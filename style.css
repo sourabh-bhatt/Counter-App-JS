@@ -56,3 +56,26 @@
   .decrement:hover {
     background-color: rgb(121, 6, 6);
   }
+
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 3rem;
+    }
+
+    .increment,
+    .decrement {
+      font-size: 2.5rem;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    .increment,
+    .decrement {
+      font-size: 2rem;
+    }
+  }
