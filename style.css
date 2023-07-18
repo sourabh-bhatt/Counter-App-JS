@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  body {
+    background-color: rgb(197, 103, 15);
+    height: 900px;
+  }
+
+  h1 {
+    text-align: center;
+    padding: 9rem;
+    font-size: 5rem;
+  }
+
+  .increment {
+    text-align: center;
+    padding: 15px;
+    font-size: 4rem;
+    margin-left: 28rem;
+    background-color: green;
+    border: none;
+    border-radius: 30px;
+    margin-right: 2rem;
+  }
+
+  .increment:hover {
+    background-color: rgb(6, 94, 6);
+  }
+
+  .decrement {
+    text-align: center;
+    padding: 15px;
+    font-size: 4rem;
+    background-color: red;
+    border: none;
+    border-radius: 30px;
+  }
+
+  .decrement:hover {
+    background-color: rgb(121, 6, 6);
+  }
