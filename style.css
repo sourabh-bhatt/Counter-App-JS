@@ -6,37 +6,51 @@
 
   body {
     background-color: rgb(197, 103, 15);
-    height: 900px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
   }
 
   h1 {
     text-align: center;
-    padding: 9rem;
-    font-size: 5rem;
+    padding: 2rem;
+    font-size: 4rem;
   }
 
-  .increment {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .increment{
     text-align: center;
     padding: 15px;
-    font-size: 4rem;
-    margin-left: 28rem;
-    background-color: green;
+    font-size: 3rem;
+    margin: 1rem;
+    width: fit-content;
     border: none;
     border-radius: 30px;
-    margin-right: 2rem;
-  }
-
-  .increment:hover {
-    background-color: rgb(6, 94, 6);
+    background-color: green;
   }
 
   .decrement {
     text-align: center;
     padding: 15px;
-    font-size: 4rem;
-    background-color: red;
+    font-size: 3rem;
+    margin: 1rem;
+    width: fit-content;
     border: none;
     border-radius: 30px;
+    background-color: red;
+  }
+
+  .increment:hover {
+    background-color: rgb(6, 94, 6);
   }
 
   .decrement:hover {
